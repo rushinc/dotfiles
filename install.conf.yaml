@@ -14,7 +14,9 @@
         ~/.calcurse/keys: apps/calcurse/keys
         ~/.config/:
                 glob: true
+                create: true
                 path: apps/config/*
+        ~/.mpdscribble: apps/mpdscribble
         ~/.ncmpcpp: apps/ncmpcpp
         ~/.vim: apps/vim
         ~/.vimrc: apps/vimrc
@@ -38,6 +40,7 @@
                 glob: true
                 path: themes/config/*
         ~/.gtkrc-2.0: themes/gtkrc-2.0
+        ~/.themes: themes/env
         ~/.local/share/rofi/themes:
                 create: true
                 path: themes/rofi
