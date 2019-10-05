@@ -1,0 +1,51 @@
+#! /usr/bin/env bash
+#
+# Script to launch windows in a custom state for bspwm only for 
+# this particular instance. The behavior is drawn from the
+# -o or --one-shot option in `bspc rule`.
+#
+# USAGE:
+#	floatty [-OPTIONS] BINARY
+# OPTIONS:
+#	-t: Run in terminal. Takes the terminal as the argument.
+#	-f: Launch in a floating window.
+#	-s: Launch in a sticky window.
+# NOTE:
+#	Options included after the binary will NOT be parsed.
+# TO-DO:
+# 	Position and size windows.
+#
+
+while getopts ':t:fs' key;
+do
+	case "$key" in
+		t)
+			TERMINAL="$OPTARG"
+			;;
+		s)
+			OPT=$OPT"-o sticky=on "
+			;;
+		f)
+			OPT=$OPT"-o state=floating "
+			;;
+		\? )
+			echo "Invalid Option: -$OPTARG" 1>&2
+			exit 1
+			;;
+	esac
+done
+shift $((OPTIND -1))
+
+if [ -n "$OPT" ]; then
+	if [ -n "$TERMINAL" ]; then
+		bspc rule -a \* $OPT && $TERMINAL -e $1
+	else
+		bspc rule -a \* $OPT && $1
+	fi
+else 
+	if [ -n "$TERMINAL" ]; then
+		$TERMINAL -e $1
+	else
+		$1
+	fi
+fi

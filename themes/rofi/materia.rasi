@@ -1,0 +1,142 @@
+/*
+ * ROFI color theme
+ *
+ * Based on Base16 Materia Color Scheme (https://github.com/Defman21/base16-materia-scheme)
+ *
+ * User: Rushin
+ * Copyright: Tomas Zaluckij
+ */
+
+* {
+	base00: #263238;
+	base01: #2C393F;
+	base02: #37474F;
+	base03: #707880;
+	base04: #C9CCD3;
+	base05: #CDD3DE;
+	base06: #D5DBE5;
+	base07: #FFFFFF;
+	base08: #EC5F67;
+	base09: #EA9560;
+	base0A: #FFCC00;
+	base0B: #8BD649;
+	base0C: #80CBC4;
+	base0D: #89DDFF;
+	base0E: #82AAFF;
+	base0F: #EC5F67;
+
+	spacing: 0;
+	background-color: @base00;
+
+	font: "Source Code Pro Medium 10";
+}
+
+window {
+	transparency: "real";
+	/*fullscreen: true;*/
+	background-color: #263238CC; /*base00 + CC (80% opacity)*/
+}
+
+mainbox {
+	children: [inputbar, message, mode-switcher, listview];
+	spacing: 20px;
+	/*margin: 20%;*/
+	padding: 20px 0;
+	border: 2px;
+	border-color: @base0E;
+}
+
+inputbar {
+	padding: 0 20px;
+	children: [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+
+prompt {
+	text-color: @base0D;
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: ":";
+	margin: 0 1ch 0 0;
+	text-color: @base0D;
+}
+
+entry {
+	text-color: @base06;
+}
+
+case-indicator {
+	text-color: @base0F;
+}
+
+mode-switcher, message {
+	border: 2px 0;
+	border-color: @base0E;
+	background-color: @base02;
+}
+
+button, textbox {
+	background-color: @base02;
+	text-color: @base04;
+	padding: 5px;
+}
+
+button selected {
+	background-color: @base0D;
+	text-color: @base03;
+}
+
+listview {
+	scrollbar: false;
+	margin: 0 20px 0 20px;
+}
+
+scrollbar {
+	background-color: @base03;
+	handle-color: @base0D;
+	handle-width: 20px;
+	border: 0 1px;
+	border-color: @base0D;
+	margin: 0 0 0 20px;
+}
+
+element {
+	padding: 5px;
+	highlight: bold underline;
+}
+
+element normal {
+	background-color: @base00;
+}
+
+element selected, element selected normal {
+	background-color: @base0A;
+	text-color: @base01;
+}
+
+element alternate {
+	background-color: @base01;
+}
+
+element normal normal, element alternate normal {
+	text-color: @base05;
+}
+
+element normal urgent, element alternate urgent {
+	text-color: @base0F;
+}
+
+element selected urgent {
+	background-color: @base0F;
+	text-color: @base07;
+}
+
+element normal active, element alternate active {
+	text-color: @base0B;
+}
+
+element selected active {
+	background-color: @base09;
+	text-color: @base07;
+}

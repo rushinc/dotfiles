@@ -1,0 +1,9 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+PATH=~/.local/bin:$PATH
+
+[ -z "$SSH_AUTH_SOCK" ] && eval "$(ssh-agent -s)"

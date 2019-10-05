@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+When = PostTransaction
+Description = Updating package list
+Exec = /bin/sh -c '/usr/bin/pacman -Qqe > /home/rushin/.dots/pkglist.txt'

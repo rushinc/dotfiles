@@ -1,0 +1,49 @@
+- defaults:
+        link:
+                relink: true
+                force: true
+
+- clean: ['~']
+
+- link:
+        ~/.calcurse/caldav/config:
+                create: true
+                path: apps/calcurse/caldav/config
+        ~/.calcurse/hooks: apps/calcurse/hooks
+        ~/.calcurse/conf: apps/calcurse/conf
+        ~/.calcurse/keys: apps/calcurse/keys
+        ~/.config/:
+                glob: true
+                path: apps/config/*
+        ~/.ncmpcpp: apps/ncmpcpp
+        ~/.vim: apps/vim
+        ~/.vimrc: apps/vimrc
+        ~/.vimrc_background: apps/vimrc_background
+        ~/.local/bin/:
+                glob: true
+                create: true
+                path: bin/*
+        ~/.config/:
+                glob: true
+                path: env/config/*
+        ~/.xprofile: env/xprofile
+        ~/.profile: env/profile
+        ~/.fonts:
+        ~/.icons:
+        ~/.config/fish: shells/fish
+        ~/.bashrc: shells/bashrc
+        ~/.bash_profile: shells/bash_profile
+        ~/.src:
+        ~/.config/:
+                glob: true
+                path: themes/config/*
+        ~/.gtkrc-2.0: themes/gtkrc-2.0
+        ~/.local/share/rofi/themes:
+                create: true
+                path: themes/rofi
+
+
+- shell:
+        - [git submodule update --init --recursive, Installing submodules...]
+        - [touch ~/.mpdscribble/lastfm.journal ~/.mpdscribble/librefm.journal ~/.mpdscribble/mpdscribble.log, Init mpdscribble...]
+        - [touch ~/.config/mpd/log ~/.config/mpd/state ~/.config/mpd/db ~/.config/mpd/sticker.sql, Init mpdscribble...]
