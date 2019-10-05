@@ -12,10 +12,6 @@
         ~/.calcurse/hooks: apps/calcurse/hooks
         ~/.calcurse/conf: apps/calcurse/conf
         ~/.calcurse/keys: apps/calcurse/keys
-        ~/.config/:
-                glob: true
-                create: true
-                path: apps/config/*
         ~/.mpdscribble: apps/mpdscribble
         ~/.ncmpcpp: apps/ncmpcpp
         ~/.vim: apps/vim
@@ -25,14 +21,12 @@
                 glob: true
                 create: true
                 path: bin/*
-        ~/.config/:
-                glob: true
-                path: env/config/*
         ~/.xprofile: env/xprofile
         ~/.profile: env/profile
         ~/.fonts:
         ~/.icons:
         ~/.config/fish: shells/fish
+        ~/.config/base16-shell: shells/base16-shell
         ~/.bashrc: shells/bashrc
         ~/.bash_profile: shells/bash_profile
         ~/.src:
@@ -44,6 +38,13 @@
         ~/.local/share/rofi/themes:
                 create: true
                 path: themes/rofi
+        ~/.config/:
+                glob: true
+                create: true
+                path: apps/config/*
+        ~/.config/:
+                glob: true
+                path: env/config/*
 
 
 - shell:
