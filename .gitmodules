@@ -17,3 +17,6 @@
 [submodule "apps/vim/plugged/vim-sxhkdrc"]
 	path = apps/vim/plugged/vim-sxhkdrc
 	url = https://github.com/baskerville/vim-sxhkdrc
+[submodule "shells/base16-shell"]
+	path = shells/base16-shell
+	url = https://github.com/chriskempson/base16-shell
