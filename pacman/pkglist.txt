@@ -267,7 +267,6 @@ util-linux
 vala
 vi
 w3m
-wego
 wget
 which
 words
