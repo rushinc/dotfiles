@@ -1,0 +1,10 @@
+*log
+apps/mpd/db
+apps/mpd/state
+apps/mpd/sticker.sql
+apps/calcurse/caldav/oauth2_cred
+apps/calcurse/caldav/sync.db
+apps/calcurse/notes
+apps/calcurse/apts*
+apps/calcurse/todo*
+apps/mpd/scribble/*.journal
