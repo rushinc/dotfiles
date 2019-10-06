@@ -4,7 +4,7 @@
 	ignore = dirty
 [submodule "src/yay"]
 	path = src/yay
-	url = https://github.com/Jguer/yay
+	url = https://aur.archlinux.org/yay.git
 [submodule "apps/vim/plugged/vimtex"]
 	path = apps/vim/plugged/vimtex
 	url = https://github.com/lervag/vimtex
