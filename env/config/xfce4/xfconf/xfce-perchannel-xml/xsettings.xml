@@ -14,7 +14,7 @@
     <property name="EnableInputFeedbackSounds" type="empty"/>
   </property>
   <property name="Xft" type="empty">
-    <property name="DPI" type="int" value="283"/>
+    <property name="DPI" type="int" value="141"/>
     <property name="Antialias" type="int" value="1"/>
     <property name="Hinting" type="empty"/>
     <property name="HintStyle" type="empty"/>
@@ -33,13 +33,13 @@
     <property name="ButtonImages" type="bool" value="false"/>
     <property name="MenuBarAccel" type="empty"/>
     <property name="CursorThemeName" type="string" value="elementary"/>
-    <property name="CursorThemeSize" type="int" value="48"/>
+    <property name="CursorThemeSize" type="int" value="16"/>
     <property name="DecorationLayout" type="empty"/>
   </property>
   <property name="Gdk" type="empty">
     <property name="WindowScalingFactor" type="int" value="1"/>
   </property>
   <property name="Xfce" type="empty">
-    <property name="LastCustomDPI" type="int" value="283"/>
+    <property name="LastCustomDPI" type="int" value="141"/>
   </property>
 </channel>

@@ -29,16 +29,16 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-0" type="string" value="Panasonic 100&quot;">
+    <property name="HDMI-0" type="string" value="Dell 24&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="1d7a94a7e168835695bb2e876717fec1ad001fe2"/>
-      <property name="Resolution" type="string" value="1280x800"/>
-      <property name="RefreshRate" type="double" value="59.810326"/>
-      <property name="Rotation" type="int" value="0"/>
+      <property name="EDID" type="string" value="db632777f0376452d3536b21fe7fa76ab5278733"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="90"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
+        <property name="X" type="int" value="3840"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
@@ -53,6 +53,32 @@
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DVI-D-0" type="string" value="ASUS 23&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="fab47679bae1dfcd93b0fa585b495385de9779fd"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="1920"/>
+        <property name="Y" type="int" value="840"/>
+      </property>
+    </property>
+    <property name="DP-5" type="string" value="ASUS 24&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="d2a705e19529d2668632d6d8cc15d9a2da2d4685"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="835"/>
       </property>
     </property>
   </property>

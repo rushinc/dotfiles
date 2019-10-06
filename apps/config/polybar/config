@@ -1,9 +1,9 @@
 [bar/top]
 monitor = 
 width = 100%
-height = 60
+height = 30
 wm-restack = bspwm
-dpi = 283
+dpi = 141
 
 base00 = #263238
 base01 = #2C393F
@@ -24,25 +24,25 @@ base0F = #EC5F67
 background = ${bar/top.base00}
 foreground = ${bar/top.base05}
 
-line-size = 4
+line-size = 2
 
-padding-right = 2
+padding-right = 1
 padding-left = 0
 module-margin = 2
 
-font-0 = NotoSans-Medium:size=8;6
-font-1 = NotoSans-Medium:style=Italic:size=8;6
-font-2 = Weather Icons:size=9;10
-font-3 = MaterialIcons-Regular:size=9;10
-font-4 = NotoSans Nerd Font:size=9;8
-font-5 = unifont:size=38;3
+font-0 = NotoSans-Medium:size=8;3
+font-1 = NotoSans-Medium:style=Italic:size=8;3
+font-2 = Weather Icons:size=9;5
+font-3 = MaterialIcons-Regular:size=9;5
+font-4 = NotoSans Nerd Font:size=9;4
+font-5 = unifont:size=38;1
 
 modules-left = bspwm mpd
 modules-center = date 
-modules-right = cpu memory wireless-network wired-network pulseaudio kdeconnect weather
+modules-right = cpu memory wireless-network wired-network pulseaudio weather
 
 tray-position = right
-tray-maxsize = 56
+tray-maxsize = 16
 
 [module/battery]
 type = internal/battery
