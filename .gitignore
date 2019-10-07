@@ -9,4 +9,4 @@ apps/calcurse/apts*
 apps/calcurse/todo*
 apps/mpdscribble/*.journal
 *spotify*pending-messages*
-*spotify*.bnk
+*.bnk
