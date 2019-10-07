@@ -7,7 +7,8 @@ sxhkd &
 # Launch polybar
 $HOME/.config/polybar/launch.sh
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor DP-5 -d I III V VII IX
+bspc monitor DVI-D-0 -d II IV VI VIII X
 
 bspc config border_width         	1
 bspc config window_gap          	6
@@ -28,6 +29,7 @@ bspc config gapless_monocle      	false
 bspc config remove_disabled_monitors	true
 bspc config remove_unplugged_monitors	true
 bspc config focus_follows_pointer	false
+bspc config pointer_follows_monitor	true
 bspc config ignore_ewmh_focus		true
 
 # Organize windows
@@ -46,7 +48,7 @@ bspc rule -a Nitrogen	 		state=floating
 bspc rule -a Arandr 			state=floating
 bspc rule -a Pavucontrol		state=floating
 bspc rule -a Transmission-gtk 		state=floating
-bspc rule -a Oblogout	 		state=floating
+bspc rule -a Oblogout	 		state=fullscreen monitor='^1'
 bspc rule -a Xarchiver	 		state=floating
 bspc rule -a Nm-connection-editor	state=floating
 bspc rule -a Gnome-system-monitor	state=floating

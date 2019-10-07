@@ -8,5 +8,5 @@ apps/calcurse/notes
 apps/calcurse/apts*
 apps/calcurse/todo*
 apps/mpdscribble/*.journal
-*spotify*pending-messages*
+apps/config/spotify/Users/riper.33-user/pending-messages*
 *.bnk

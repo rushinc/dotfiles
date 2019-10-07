@@ -1,10 +1,8 @@
-xinput disable 10 &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-compton &
-nitrogen --restore &
-nm-applet &
-xfce4-power-manager &
 xfsettingsd &
+xfce4-power-manager &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+compton --respect-prop-shadow &
+nm-applet &
 mopidy &
 mpdscribble &
 redshift-gtk &
@@ -12,3 +10,4 @@ pulseeffects --gapplication-service &
 clipit &
 udiskie &
 syncthing -no-browser &
+nitrogen --restore &

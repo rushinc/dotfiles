@@ -30,9 +30,6 @@
         ~/.bashrc: shells/bashrc
         ~/.bash_profile: shells/bash_profile
         ~/.src:
-        ~/.config/:
-                glob: true
-                path: themes/config/*
         ~/.gtkrc-2.0: themes/gtkrc-2.0
         ~/.themes: themes/env
         ~/.local/share/rofi/themes:
@@ -45,6 +42,9 @@
         ~/.config/:
                 glob: true
                 path: env/config/*
+        ~/.config/:
+                glob: true
+                path: themes/config/*
 
 
 - shell:

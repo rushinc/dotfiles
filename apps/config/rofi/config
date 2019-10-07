@@ -1,4 +1,4 @@
 rofi.theme: 		/home/rushin/.local/share/rofi/themes/materia.rasi
 rofi.modi:		window,run,drun,ssh
 rofi.terminal:		termite
-rofi.dpi:		283
+rofi.dpi:		141
