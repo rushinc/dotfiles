@@ -1,7 +1,5 @@
 priority -50
 
-extends texmath
-
 global !p
 
 def create_table(snip):
@@ -45,7 +43,7 @@ def add_row(snip):
 endglobal
 
 snippet "b(egin)?" "begin{} / end{}" br
-\begin{${1:something}}
+\begin{${1}}
 	${0:${VISUAL}}
 \end{$1}
 endsnippet
@@ -232,4 +230,98 @@ ${2:${VISUAL:code}}
 
 $0
 endsnippet
+
+priority -50
+
+##############
+# MATH STUFF #
+##############
+
+snippet mmd "Math" wA
+\(${1}\)`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+    snip.rv = ' '
+else:
+    snip.rv = ''
+`$2
+endsnippet
+
+snippet // "Fractions" iA
+\frac{${1}}{${2}}`!p
+if t[3] and t[3][0] not in [',', '.', '?', '\\', ' ']:
+    snip.rv = ' '
+else:
+    snip.rv = ''
+`$3
+endsnippet
+
+snippet eqtn "Equation" bA
+\begin{equation} \label{eq:${1}}
+	${2:${VISUAL}} \,${3:.}
+\end{equation}
+${0}
+endsnippet
+
+snippet eqnn "Equation without a number" bA
+\begin{equation*}
+	${1:${VISUAL}} \,${2:.}
+\end{equation*}
+${0}
+endsnippet
+
+snippet algn "Align" bA
+\begin{align} \label{eq:${1}}
+	${2:${VISUAL}} \,${3:.}
+\end{align}
+${0}
+endsnippet
+
+snippet alnn "Align without a number" bA
+\begin{align*}
+	${1:${VISUAL}} \,${2:.}
+\end{align*}
+${0}
+endsnippet
+
+snippet nnm "Unnumbered equation" wA
+\nonumber \\\\
+${1} \,${0:.}
+endsnippet
+
+snippet qrf "Eqref" wA
+Eq.~\eqref{eq:${1:${VISUAL}}}`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+    snip.rv = ' '
+else:
+    snip.rv = ''
+`$2
+endsnippet
+
+snippet Qrf "Eqref" wA
+Equation~\eqref{eq:${1:${VISUAL}}}`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+    snip.rv = ' '
+else:
+    snip.rv = ''
+`$2
+endsnippet
+
+#################
+# PHYSICS STUFF #
+#################
+
+snippet dv "Derivative" w
+\dv[${1:${VISUAL}}]{${2}}{${3}}
+endsnippet
+
+snippet pdv "Partial Derivative" w
+\pdv[${1:${VISUAL}}]{${2}}{${3}}
+endsnippet
+
+snippet SI "SI-Unit" w
+\SI{${1:${VISUAL}}}{${2}}
+endsnippet
+
+# vim:ft=snippets:
+
 # vim:ft=snippets:

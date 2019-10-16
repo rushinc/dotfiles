@@ -38,8 +38,8 @@ font-4 = NotoSans Nerd Font:size=9;4
 font-5 = unifont:size=38;1
 
 modules-left = bspwm mpd
-modules-center = date 
-modules-right = cpu memory wireless-network wired-network pulseaudio weather
+modules-center = 
+modules-right = cpu memory wireless-network wired-network pulseaudio weather date 
 
 tray-position = right
 tray-maxsize = 16
@@ -75,17 +75,18 @@ animation-charging-framerate = 1000
 
 [module/bspwm]
 type = internal/bspwm
+pin-workspaces = false
 
-ws-icon-0 = I;
-ws-icon-1 = II;
-ws-icon-2 = III;
-ws-icon-3 = IV;
-ws-icon-4 = V;﯑
-ws-icon-5 = VI;
-ws-icon-6 = VII;
-ws-icon-7 = VIII;
-ws-icon-8 = IX;
-ws-icon-9 = X;
+ws-icon-0 = T;
+ws-icon-1 = F;
+ws-icon-2 = B;
+ws-icon-3 = R;
+ws-icon-4 = W;﯑
+ws-icon-5 = M;
+ws-icon-6 = C;
+ws-icon-7 = S;
+ws-icon-8 = I;
+ws-icon-9 = L;
 ws-icon-default = 
 
 format = <label-state> <label-mode>
@@ -107,7 +108,7 @@ label-occupied-padding = 4
 label-dimmed = %icon%
 label-dimmed-foreground = ${bar/top.base02}
 label-dimmed-background = ${bar/top.background}
-label-dimmed-underline = ${bar/top.base09}
+label-dimmed-underline = ${bar/top.base02}
 label-dimmed-font = 5
 label-dimmed-padding = 4
 

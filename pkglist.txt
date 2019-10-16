@@ -22,6 +22,7 @@ bzip2
 calcurse
 calf
 catfish
+cli-visualizer
 clipit
 compton
 coreutils
@@ -32,6 +33,7 @@ dhcpcd
 dialog
 diffutils
 downgrade
+doxygen
 dunst
 e2fsprogs
 efibootmgr
@@ -69,6 +71,8 @@ gst-plugins-ugly
 gst-python2
 gthumb
 gtk-engine-murrine
+gtk-engines
+gtk2-smooth-engine
 gts
 gvfs
 gvfs-mtp
@@ -113,6 +117,7 @@ linux-firmware
 logrotate
 lsp-plugins
 lvm2
+lxappearance-gtk3
 m4
 maim
 make
@@ -127,6 +132,7 @@ minizip
 mlocate
 mopidy
 mopidy-local-sqlite
+mopidy-spotify-playlist-fix-git
 mopidy-spotify-web
 mpc
 mpd
@@ -208,6 +214,7 @@ python2-pytoml
 python2-requests
 python2-retrying
 python2-singledispatch
+python2-spotipy
 python2-tornado
 python2-urllib3
 python2-webencodings
@@ -219,6 +226,7 @@ qt5-webkit
 qt5ct
 ranger-git
 re2
+realvnc-vnc-viewer
 redshift
 refind-efi
 reiserfsprogs
@@ -227,6 +235,7 @@ s-nail
 sed
 serf
 shadow
+shadowfox-updater
 siji-git
 snappy
 spotify
@@ -271,7 +280,6 @@ util-linux
 vala
 vi
 w3m
-wego
 wget
 which
 words
@@ -345,3 +353,4 @@ zathura
 zathura-djvu
 zathura-pdf-mupdf
 zathura-ps
+zenity

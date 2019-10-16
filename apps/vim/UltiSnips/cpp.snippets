@@ -1,3 +1,16 @@
+priority -50
+
+snippet forit "for loop with auto iterator" b
+for (auto it=${1}.begin(); it!=$1.end(); ++it)
+{
+	${0}
+}
+endsnippet
+
 snippet inc "include"
-#include "${1}.H"
+#include "${1:${VISUAL}}.H"
+endsnippet
+
+snippet Inc "include"
+#include <${1:${VISUAL}}>
 endsnippet
