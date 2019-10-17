@@ -194,13 +194,13 @@ animation-packetloss-framerate = 500
 
 [module/wired-network]
 type = internal/network
-interface = enp0s31f6
+interface = eno1
 interval = 3.0
 
 ramp-signal-0 = 
 
 format-connected = %{A1:nm-connection-editor:}<ramp-signal>%{A} <label-connected>
-$format-connected-underline = #80CBC4
+#format-connected-underline = #80CBC4
 label-connected =  %downspeed%   %upspeed%
 
 [module/pulseaudio]

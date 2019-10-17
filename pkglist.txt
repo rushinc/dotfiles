@@ -13,6 +13,7 @@ automake
 awesome-terminal-fonts
 base
 bash
+bc
 binutils
 bison
 blueman
@@ -96,6 +97,7 @@ keepassxc
 kvantum-qt5
 kvantum-theme-adapta
 less
+lib32-libcanberra
 libappindicator-gtk3
 libdbusmenu-gtk3
 libgsf
@@ -292,7 +294,6 @@ xdotool
 xf86-video-intel
 xf86-video-vesa
 xfce4-power-manager
-xfce4-settings
 xfsprogs
 xorg-bdftopcf
 xorg-docs

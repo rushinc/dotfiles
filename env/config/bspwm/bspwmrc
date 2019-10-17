@@ -50,6 +50,7 @@ bspc rule -a Spotify 			desktop=L
 bspc rule -a Nitrogen	 		state=floating
 bspc rule -a Arandr 			state=floating
 bspc rule -a Pavucontrol		state=floating
+bspc rule -a Lxappearance		state=floating
 bspc rule -a Transmission-gtk 		state=floating
 bspc rule -a Oblogout	 		state=fullscreen monitor='^1'
 bspc rule -a Xarchiver	 		state=floating
