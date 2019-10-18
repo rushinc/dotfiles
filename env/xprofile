@@ -1,4 +1,4 @@
-xfsettingsd &
+numlockx &
 /home/rushin/.screenlayout/defaults.sh &
 xfce4-power-manager &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &

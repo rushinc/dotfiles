@@ -157,6 +157,7 @@ noto-fonts-emoji
 noto-fonts-extra
 ntfs-3g
 ntp
+numlockx
 nvidia
 nvidia-settings
 nvidia-utils
