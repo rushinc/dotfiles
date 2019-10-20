@@ -29,6 +29,9 @@ compton
 coreutils
 cpio
 cryptsetup
+cups
+cups-pdf
+cups-pk-helper
 device-mapper
 dhcpcd
 dialog
@@ -155,6 +158,7 @@ nitrogen
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
+nss-mdns
 ntfs-3g
 ntp
 numlockx
