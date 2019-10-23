@@ -102,7 +102,6 @@ kvantum-theme-adapta
 less
 lib32-libcanberra
 libappindicator-gtk3
-libc++
 libdbusmenu-gtk3
 libgsf
 libindicator-gtk3
