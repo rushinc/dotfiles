@@ -11,4 +11,4 @@ mpdscribble &
 redshift-gtk &
 pulseeffects --gapplication-service &
 clipit &
-udiskie &
+udiskie -s &

@@ -48,6 +48,7 @@ bspc rule -a Pavucontrol		state=floating
 bspc rule -a Transmission-gtk 		state=floating
 bspc rule -a Oblogout	 		state=floating
 bspc rule -a Xarchiver	 		state=floating
+bspc rule -a MATLAB R2019a - academic use	state=floating
 bspc rule -a Nm-connection-editor	state=floating
 bspc rule -a Gnome-system-monitor	state=floating
 bspc rule -a Zathura			state=tiled

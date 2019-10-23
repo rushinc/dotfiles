@@ -2,6 +2,7 @@
 apps/config/mpd/db
 apps/config/mpd/state
 apps/config/mpd/sticker.sql
+apps/config/spotify/Users/*
 apps/calcurse/caldav/oauth2_cred
 apps/calcurse/caldav/sync.db
 apps/calcurse/notes
