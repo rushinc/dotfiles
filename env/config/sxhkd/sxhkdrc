@@ -6,12 +6,17 @@
 
 # Audio control
 
-# Using ALSA as it is present by default in most cases
+# Using custom scripts to show notification with dunst
+# Calls ~/.local/bin/volume.sh
 XF86Audio{Raise,Lower}Volume
         volume.sh {up,down}
 
 XF86AudioMute
         volume.sh mute
+
+# Alternative keybindings when XF86 not present
+super + {equal,minus,shift + minus}
+        volume.sh {up,down,mute}
 
 # playerctl controls
 super + shift + p

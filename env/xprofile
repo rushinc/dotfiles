@@ -3,6 +3,10 @@ numlockx &
 xfce4-power-manager &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 compton --respect-prop-shadow &
+<<<<<<< HEAD
+=======
+nitrogen --restore &
+>>>>>>> d9b5e4f38dae1ecf85c824b179b46155290d0dce
 nm-applet &
 mopidy &
 mpd-notification &
@@ -10,5 +14,9 @@ mpdscribble &
 redshift-gtk &
 pulseeffects --gapplication-service &
 clipit &
+<<<<<<< HEAD
 udiskie &
 nitrogen --restore &
+=======
+udiskie -s &
+>>>>>>> d9b5e4f38dae1ecf85c824b179b46155290d0dce

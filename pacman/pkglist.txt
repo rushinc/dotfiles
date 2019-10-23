@@ -11,6 +11,7 @@ atool
 autoconf
 automake
 awesome-terminal-fonts
+base
 bash
 binutils
 bison

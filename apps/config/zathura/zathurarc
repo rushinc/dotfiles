@@ -43,4 +43,3 @@ set window-title-basename true
 # Mappings
 map b toggle_statusbar
 map h set recolor-keephue true
-map <A-h> set recolor-keephue false

@@ -102,6 +102,7 @@ kvantum-theme-adapta
 less
 lib32-libcanberra
 libappindicator-gtk3
+libc++
 libdbusmenu-gtk3
 libgsf
 libindicator-gtk3
@@ -247,6 +248,7 @@ siji-git
 snappy
 spotify
 squashfs-tools
+sshfs
 subversion
 sudo
 sxhkd

@@ -165,12 +165,34 @@ toggle-off-foreground = #707880
 
 bar-progress-width = 10
 bar-progress-format = %{A4:mpdseek+2: A5:mpdseek-2:}%fill%%indicator%%empty%%{A A}
-bar-progress-indicator = 
+bar-progress-indicator = 
 bar-progress-indicator-foreground =
 bar-progress-fill = ─
 bar-progress-fill-foreground =
 bar-progress-empty = ─
 bar-progress-empty-foreground = #707880
+
+[module/xwindow]
+type = internal/xwindow
+
+; Available tags:
+;   <label> (default)
+format = <label>
+format-background = ${bar/top.background}
+format-foreground = ${bar/top.foreground}
+format-padding = 4
+
+; Available tokens:
+;   %title%
+; Default: %title%
+label = %title%
+label-maxlen = 50
+
+; Used instead of label when there is no window title
+; Available tokens:
+;   None
+label-empty = 
+label-empty-foreground = ${bar/top.foreground}
 
 [module/wireless-network]
 type = internal/network
