@@ -39,7 +39,8 @@ bspc config ignore_ewmh_focus		true
 bspc rule -a Thunar 			desktop=F
 bspc rule -a firefox 			desktop=B
 bspc rule -a Zathura			desktop=R
-bspc rule -a MATLAB R2019a - academic use desktop=M
+bspc rule -a "MATLAB R2019b - academic use" desktop=M state=floating
+bspc rule -a "MATLAB R2019b"		desktop=M state=floating
 bspc rule -a Comsollauncher		desktop=S state=floating
 bspc rule -a SWT			desktop=S
 bspc rule -a Pulseeffects		desktop=M2
@@ -54,7 +55,6 @@ bspc rule -a Lxappearance		state=floating
 bspc rule -a Transmission-gtk 		state=floating
 bspc rule -a Oblogout	 		state=fullscreen monitor='^1'
 bspc rule -a Xarchiver	 		state=floating
-bspc rule -a MATLAB R2019a - academic use	state=floating
 bspc rule -a Nm-connection-editor	state=floating
 bspc rule -a Gnome-system-monitor	state=floating
 bspc rule -a Zathura			state=tiled

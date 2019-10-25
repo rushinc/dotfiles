@@ -109,6 +109,7 @@ libmythes
 libreoffice-extension-texmaths
 libreoffice-extension-writer2latex
 libreoffice-still
+libselinux
 libstemmer
 libtool
 libutf8proc
@@ -131,7 +132,6 @@ man-pages
 mathpix-snipping-tool
 mda.lv2
 mdadm
-mendeleydesktop-dev
 meteo-gtk
 minizip
 mlocate
@@ -166,6 +166,7 @@ nvidia
 nvidia-settings
 nvidia-utils
 oblogout
+oomox
 openssh
 openvpn
 optimus-manager
@@ -361,3 +362,4 @@ zathura-djvu
 zathura-pdf-mupdf
 zathura-ps
 zenity
+zotero
