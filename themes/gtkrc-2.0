@@ -2,7 +2,7 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/rushin/.gtkrc-2.0.mine"
-gtk-theme-name="oomox-materia"
+gtk-theme-name="oomox-base16-materia-hidpi"
 gtk-icon-theme-name="oomox-materia"
 gtk-font-name="Noto Sans Medium 10"
 gtk-cursor-theme-name=""

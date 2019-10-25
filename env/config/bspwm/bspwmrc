@@ -7,10 +7,12 @@ sxhkd &
 # Launch polybar
 $HOME/.config/polybar/launch.sh
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor DP-5 -d T B W C M1
+bspc monitor DVI-D-0 -d F M S I M2
+bspc monitor HDMI-0 -d R L M3
 
-bspc config border_width         	2
-bspc config window_gap          	15
+bspc config border_width         	1
+bspc config window_gap          	6
 
 # Border colors
 bspc config normal_border_color 	"#707880"
@@ -28,27 +30,31 @@ bspc config gapless_monocle      	false
 bspc config remove_disabled_monitors	true
 bspc config remove_unplugged_monitors	true
 bspc config focus_follows_pointer	false
+bspc config pointer_follows_monitor	true
 bspc config ignore_ewmh_focus		true
 
 # Organize windows
 
 # Assign windows to workspaces
-bspc rule -a Thunar 			desktop='^2'
-bspc rule -a firefox 			desktop='^3'
-bspc rule -a Zathura			desktop='^4'
-bspc rule -a MATLAB R2019a - academic use desktop='^6'
-bspc rule -a Pulseeffects		desktop='^8'
-bspc rule -a mpv		 	desktop='^9'
-bspc rule -a Spotify 			desktop='^10'
+bspc rule -a Thunar 			desktop=F
+bspc rule -a firefox 			desktop=B
+bspc rule -a Zathura			desktop=R
+bspc rule -a "MATLAB R2019b - academic use" desktop=M state=floating
+bspc rule -a "MATLAB R2019b"		desktop=M state=floating
+bspc rule -a Comsollauncher		desktop=S state=floating
+bspc rule -a SWT			desktop=S
+bspc rule -a Pulseeffects		desktop=M2
+bspc rule -a mpv		 	desktop=M1
+bspc rule -a Spotify 			desktop=L
 
 # Floating/tiled windows
 bspc rule -a Nitrogen	 		state=floating
 bspc rule -a Arandr 			state=floating
 bspc rule -a Pavucontrol		state=floating
+bspc rule -a Lxappearance		state=floating
 bspc rule -a Transmission-gtk 		state=floating
-bspc rule -a Oblogout	 		state=floating
+bspc rule -a Oblogout	 		state=fullscreen monitor='^1'
 bspc rule -a Xarchiver	 		state=floating
-bspc rule -a MATLAB R2019a - academic use	state=floating
 bspc rule -a Nm-connection-editor	state=floating
 bspc rule -a Gnome-system-monitor	state=floating
 bspc rule -a Zathura			state=tiled

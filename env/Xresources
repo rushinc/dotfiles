@@ -1,0 +1,26 @@
+*background:  #263238
+*foreground:  #cdd3de
+*color0:  #2c393f
+*color1:  #ec5f67
+*color2:  #8bd649
+*color3:  #ea9560
+*color4:  #89ddff
+*color5:  #82aaff
+*color6:  #80cbc4
+*color7:  #d5dbe5
+*color8:  #37474f
+*color9:  #ec5f67
+*color10:  #8bd649
+*color11:  #ffcc00
+*color12:  #89ddff
+*color13:  #82aaff
+*color14:  #80cbc4
+*color15:  #ffffff
+
+Xft.dpi: 144
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb

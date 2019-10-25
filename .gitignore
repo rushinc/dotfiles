@@ -9,3 +9,6 @@ apps/calcurse/notes
 apps/calcurse/apts*
 apps/calcurse/todo*
 apps/mpdscribble/*.journal
+apps/config/spotify/Users/*
+apps/vim/.netrwhist
+*.bnk

@@ -1,9 +1,9 @@
 [bar/top]
 monitor = 
 width = 100%
-height = 60
+height = 30
 wm-restack = bspwm
-dpi = 283
+dpi = 141
 
 base00 = #263238
 base01 = #2C393F
@@ -24,25 +24,25 @@ base0F = #EC5F67
 background = ${bar/top.base00}
 foreground = ${bar/top.base05}
 
-line-size = 4
+line-size = 2
 
-padding-right = 2
+padding-right = 1
 padding-left = 0
 module-margin = 2
 
-font-0 = NotoSans-Medium:size=8;6
-font-1 = NotoSans-Medium:style=Italic:size=8;6
-font-2 = Weather Icons:size=9;10
-font-3 = MaterialIcons-Regular:size=9;10
-font-4 = NotoSans Nerd Font:size=9;8
-font-5 = unifont:size=38;3
+font-0 = NotoSans-Medium:size=8;3
+font-1 = NotoSans-Medium:style=Italic:size=8;3
+font-2 = Weather Icons:size=9;5
+font-3 = MaterialIcons-Regular:size=9;5
+font-4 = NotoSans Nerd Font:size=9;4
+font-5 = unifont:size=38;1
 
 modules-left = bspwm mpd
 modules-center = 
 modules-right = cpu memory wireless-network wired-network pulseaudio weather date 
 
 tray-position = right
-tray-maxsize = 56
+tray-maxsize = 16
 
 [module/battery]
 type = internal/battery
@@ -75,17 +75,18 @@ animation-charging-framerate = 1000
 
 [module/bspwm]
 type = internal/bspwm
+pin-workspaces = false
 
-ws-icon-0 = I;
-ws-icon-1 = II;
-ws-icon-2 = III;
-ws-icon-3 = IV;
-ws-icon-4 = V;﯑
-ws-icon-5 = VI;
-ws-icon-6 = VII;
-ws-icon-7 = VIII;
-ws-icon-8 = IX;
-ws-icon-9 = X;
+ws-icon-0 = T;
+ws-icon-1 = F;
+ws-icon-2 = B;
+ws-icon-3 = R;
+ws-icon-4 = W;﯑
+ws-icon-5 = M;
+ws-icon-6 = C;
+ws-icon-7 = S;
+ws-icon-8 = I;
+ws-icon-9 = L;
 ws-icon-default = 
 
 format = <label-state> <label-mode>
@@ -107,7 +108,7 @@ label-occupied-padding = 4
 label-dimmed = %icon%
 label-dimmed-foreground = ${bar/top.base02}
 label-dimmed-background = ${bar/top.background}
-label-dimmed-underline = ${bar/top.base09}
+label-dimmed-underline = ${bar/top.base02}
 label-dimmed-font = 5
 label-dimmed-padding = 4
 
@@ -215,13 +216,13 @@ animation-packetloss-framerate = 500
 
 [module/wired-network]
 type = internal/network
-interface = enp0s31f6
+interface = eno1
 interval = 3.0
 
 ramp-signal-0 = 
 
 format-connected = %{A1:nm-connection-editor:}<ramp-signal>%{A} <label-connected>
-$format-connected-underline = #80CBC4
+#format-connected-underline = #80CBC4
 label-connected =  %downspeed%   %upspeed%
 
 [module/pulseaudio]

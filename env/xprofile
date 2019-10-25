@@ -1,14 +1,14 @@
-xinput disable 10 &
+numlockx &
+/home/rushin/.screenlayout/defaults.sh &
+xfce4-power-manager &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 compton --respect-prop-shadow &
-nitrogen --restore &
 nm-applet &
-xfce4-power-manager &
-xfsettingsd &
 mopidy &
 mpd-notification &
 mpdscribble &
 redshift-gtk &
 pulseeffects --gapplication-service &
 clipit &
+nitrogen --restore &
 udiskie -s &

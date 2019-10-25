@@ -20,3 +20,6 @@
 [submodule "shells/base16-shell"]
 	path = shells/base16-shell
 	url = https://github.com/chriskempson/base16-shell
+[submodule "apps/vim/plugged/matlab.vim"]
+	path = apps/vim/plugged/matlab.vim
+	url = https://github.com/yinflying/matlab.vim
