@@ -22,6 +22,7 @@
                 create: true
                 path: bin/*
         ~/.xprofile: env/xprofile
+        ~/.Xresources: env/Xresources
         ~/.profile: env/profile
         ~/.fonts:
         ~/.icons:

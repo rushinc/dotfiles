@@ -13,17 +13,17 @@ case $HOSTNAME in
 		bspc monitor DVI-D-0 -d F M S I M2
 		bspc monitor HDMI-0 -d R L M3
 		bspc config border_width         	1
-		bspc config window_gap          	6
+		bspc config window_gap          	8
 		;;
 	archPad)
 		bspc monitor -d T F B R W M C S I L M1 M2 M3
 		bspc config border_width         	2
-		bspc config window_gap          	12
+		bspc config window_gap          	16
 		;;
 	*)
 		bspc monitor -d T F B R W M C S I L M1 M2 M3
 		bspc config border_width         	1
-		bspc config window_gap          	6
+		bspc config window_gap          	8
 		;;
 esac
 

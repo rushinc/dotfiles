@@ -1,3 +1,11 @@
+#ifndef XDPI
+	#ifdef SRVR_archPad
+		#define XDPI 288
+	#else
+		#define XDPI 144
+	#endif
+#endif
+
 *background:  #263238
 *foreground:  #cdd3de
 *color0:  #2c393f
@@ -17,7 +25,7 @@
 *color14:  #80cbc4
 *color15:  #ffffff
 
-Xft.dpi: 144
+*dpi: XDPI
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
 Xft.hintstyle:  hintfull

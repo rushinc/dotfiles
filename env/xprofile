@@ -1,5 +1,15 @@
+#!usr/bin/bash
+
+if [ "$HOSTNAME" = archPad ]; then
+	xinput disable 10 &
+	dunst -config /home/rushin/.config/dunst/dunstrc_hidpi &
+else
+	dunst -config /home/rushin/.config/dunst/dunstrc &
+fi
+if [ "$HOSTNAME" = archStation ]; then
+	/home/rushin/.screenlayout/defaults.sh &
+fi
 numlockx &
-/home/rushin/.screenlayout/defaults.sh &
 xfce4-power-manager &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 compton --respect-prop-shadow &
