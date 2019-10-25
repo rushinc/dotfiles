@@ -110,6 +110,7 @@ linux-firmware
 logrotate
 lsp-plugins
 lvm2
+lxappearance
 m4
 maim
 make
@@ -280,7 +281,6 @@ xdotool
 xf86-video-intel
 xf86-video-vesa
 xfce4-power-manager
-xfce4-settings
 xfsprogs
 xorg-bdftopcf
 xorg-docs
