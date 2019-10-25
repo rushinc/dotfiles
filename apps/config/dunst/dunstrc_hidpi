@@ -150,7 +150,7 @@
     icon_position = left
 
     # Paths to default icons.
-    icon_path = /home/rushin/.icons/oomox-base16-materia-arc-dark/64@2x/mimetypes/:/home/rushin/.icons/oomox-base16-materia-arc-dark/64@2x/devices/:/home/rushin/.icons/oomox-base16-materia-arc-dark/48@2x/notifications/:/home/rushin/.icons/oomox-base16-materia-arc-dark/64@2x/status/:/home/rushin/.icons/oomox-base16-materia-arc-dark/48@2x/status:/home/rushin/.icons/oomox-base16-materia-arc-dark/24@2x/status
+    icon_path = /home/rushin/.icons/oomox-base16-materia-arc-dark/64x64@2x/mimetypes/:/home/rushin/.icons/oomox-base16-materia-arc-dark/64x64@2x/devices/:/home/rushin/.icons/oomox-base16-materia-arc-dark/48x48@2x/notifications/:/home/rushin/.icons/oomox-base16-materia-arc-dark/64x64@2x/status/:/home/rushin/.icons/oomox-base16-materia-arc-dark/48x48@2x/status:/home/rushin/.icons/oomox-base16-materia-arc-dark/24@2x/status
 
     # Limit icons size.
     max_icon_size=96

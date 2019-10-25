@@ -4,8 +4,9 @@
 pkill sxhkd
 sxhkd &
 
-# Launch polybar
+# Launch polybar & dunst (to force reload with wm)
 $HOME/.config/polybar/launch.sh
+$HOME/.config/dunst/launch.sh
 
 case $HOSTNAME in
 	archStation)

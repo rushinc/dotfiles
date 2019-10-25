@@ -2,9 +2,6 @@
 
 if [ "$HOSTNAME" = archPad ]; then
 	xinput disable 10 &
-	dunst -config /home/rushin/.config/dunst/dunstrc_hidpi &
-else
-	dunst -config /home/rushin/.config/dunst/dunstrc &
 fi
 if [ "$HOSTNAME" = archStation ]; then
 	/home/rushin/.screenlayout/defaults.sh &

@@ -16,4 +16,4 @@ case $HOSTNAME in
 		;;
 esac
 
-echo "Polybar launched..."
+exit 0
