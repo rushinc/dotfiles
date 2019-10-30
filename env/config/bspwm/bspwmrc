@@ -54,6 +54,7 @@ bspc config ignore_ewmh_focus		true
 bspc rule -a Thunar 			desktop=F
 bspc rule -a firefox 			desktop=B
 bspc rule -a Zathura			desktop=R
+bspc rule -a Zotero			desktop=R
 bspc rule -a "MATLAB R2019b - academic use" desktop=M state=floating
 bspc rule -a "MATLAB R2019b"		desktop=M state=floating
 bspc rule -a Comsollauncher		desktop=S state=floating
