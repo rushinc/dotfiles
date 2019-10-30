@@ -39,7 +39,7 @@ font-5 = unifont:size=38;1
 
 modules-left = bspwm mpd
 modules-center = 
-modules-right = cpu memory wireless-network wired-network pulseaudio weather date 
+modules-right = cpu memory wireless-network wired-network pulseaudio battery weather date 
 
 tray-position = right
 tray-maxsize = 36
@@ -207,12 +207,6 @@ format-disconnected = %{A1:nm-connection-editor:}<label-disconnected>%{A}
 label-disconnected = 
 
 ramp-signal-0 = 直
-
-animation-packetloss-0 = 
-animation-packetloss-0-foreground = #ffa64c
-animation-packetloss-1 = 
-animation-packetloss-1-foreground = ${bar/top.foreground}
-animation-packetloss-framerate = 500
 
 [module/wired-network]
 type = internal/network

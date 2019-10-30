@@ -7,15 +7,18 @@ if [ "$HOSTNAME" = archStation ]; then
 	/home/rushin/.screenlayout/defaults.sh &
 fi
 numlockx &
-xfce4-power-manager &
+
+# Services
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 compton --respect-prop-shadow &
-nm-applet &
 mopidy &
 mpd-notification &
 mpdscribble &
-redshift-gtk &
 pulseeffects --gapplication-service &
-clipit &
 nitrogen --restore &
+
+# Tray applets
+nm-applet &
+xfce4-power-manager &
 udiskie -s &
+clipit &

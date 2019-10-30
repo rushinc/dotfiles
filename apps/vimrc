@@ -54,8 +54,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Mappings
-map <f9> :make
+" Cut and copy
+nnoremap Y y$
+nnoremap D d$
+nnoremap C c$
 
 " Syntax checking
 autocmd BufEnter *.m    compiler mlint
