@@ -184,6 +184,10 @@ super + ctrl + {1-9}
 super + ctrl + space
 	bspc node -p cancel
 
+# send current node to preselection
+super + s
+	bspc node -n 'last.!automatic.local'
+
 #
 # move/resize
 #
