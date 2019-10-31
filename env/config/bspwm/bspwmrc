@@ -47,6 +47,7 @@ bspc config remove_unplugged_monitors	true
 bspc config focus_follows_pointer	false
 bspc config pointer_follows_monitor	true
 bspc config ignore_ewmh_focus		true
+bspc config external_rules_command 	~/.config/bspwm/floating_preferences
 
 # Organize windows
 

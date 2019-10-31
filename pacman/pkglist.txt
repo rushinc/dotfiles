@@ -334,6 +334,7 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xtitle
 yay
 yelp
 youtube-dl
@@ -342,3 +343,4 @@ zathura
 zathura-djvu
 zathura-pdf-mupdf
 zathura-ps
+zotero
