@@ -61,11 +61,12 @@ bspc rule -a "MATLAB R2019b"		desktop=M state=floating
 bspc rule -a Comsollauncher		desktop=S state=floating
 bspc rule -a SWT			desktop=S
 bspc rule -a Pulseeffects		desktop=M2
-bspc rule -a mpv		 	desktop=M1
+bspc rule -a mpv		 	desktop=I
 bspc rule -a Spotify 			desktop=L
 
 # Floating/tiled windows
 bspc rule -a Nitrogen	 		state=floating
+bspc rule -a qt5ct	 		state=floating
 bspc rule -a Arandr 			state=floating
 bspc rule -a Pavucontrol		state=floating
 bspc rule -a Lxappearance		state=floating

@@ -148,12 +148,12 @@ alt + {_,shift + }Tab
 
 # focus the next/previous desktop
 super + {_,shift + }Tab
-	bspc desktop -f {prev,next}
+	bspc desktop -f {next,prev}.occupied
 
 # focus the older or newer node in the focus history
-super + {o,i}
+super + {_,shift + }z
 	bspc wm -h off; \
-	bspc node {older,newer} -f; \
+	bspc node -f {older,newer}; \
 	bspc wm -h on
 
 # focus or send to the given desktop
@@ -161,11 +161,11 @@ super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} {T,F,B,R,W,M,C,S,I,L}
 
 # focus or send to given monitor
-super + {_,ctrl + }F{1-3}
+super + {_,shift + }F{1-3}
 	bspc {monitor -f,node -m} '^{1-3}'
 
 # focus or send to the given desktop
-super + {alt + ,shift + }F{1-3}
+super + alt + {_,shift + }{1-3}
 	bspc {desktop -f,node -d} M{1-3}
 
 #
