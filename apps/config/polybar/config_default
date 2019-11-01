@@ -39,7 +39,7 @@ font-5 = unifont:size=38;1
 
 modules-left = bspwm mpd
 modules-center = 
-modules-right = cpu memory wireless-network wired-network pulseaudio weather date 
+modules-right = cpu memory wireless-network wired-network pulseaudio battery weather date 
 
 tray-position = right
 tray-maxsize = 24
@@ -47,7 +47,7 @@ tray-maxsize = 24
 [module/battery]
 type = internal/battery
 full-at = 98
-battery = BAT0
+battery = BAT1
 adapter = AC
 click-left = xfce4-power-manager-settings
 
@@ -196,7 +196,7 @@ label-empty-foreground = ${bar/top.foreground}
 
 [module/wireless-network]
 type = internal/network
-interface = wlp0s20f3
+interface = wlp3s0
 interval = 3.0
 ping-interval = 10
 
