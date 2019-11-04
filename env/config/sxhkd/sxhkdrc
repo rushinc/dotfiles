@@ -40,10 +40,10 @@ XF86Display
 # Screen capture
 
 Print
-	maim -u Pictures/screenshots/maim_$(date +%s_%F).png && dunstify -a "Maim" "Screenshot saved to ~/Pictures/screenshots"
+	maim -u | xclip -selection clipboard -t image/png && dunstify -a "Maim" "Screenshot saved to clipboard"
 
 ctrl + Print
-	maim -u | xclip -selection clipboard -t image/png && dunstify -a "Maim" "Screenshot saved to clipboard"
+	maim -u Pictures/screenshots/maim_$(date +%s_%F).png && dunstify -a "Maim" "Screenshot saved to ~/Pictures/screenshots"
 
 alt + Print
 	maim -ui $(xdotool getactivewindow) Pictures/screenshots/maim_$(date +%s_%F).png && dunstify -a "Maim" "Screenshot saved to ~/Pictures/screenshots"
