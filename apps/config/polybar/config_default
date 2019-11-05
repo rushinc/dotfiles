@@ -196,7 +196,7 @@ label-empty-foreground = ${bar/top.foreground}
 
 [module/wireless-network]
 type = internal/network
-interface = wlp3s0
+interface = wlan0
 interval = 3.0
 ping-interval = 10
 
