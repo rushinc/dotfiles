@@ -3,9 +3,9 @@
 # Set up monitors
 case $HOSTNAME in
 	archStation)
-		bspc monitor DP-5 -d T B W C M1
+		bspc monitor HDMI-0 -d T B W C M1
 		bspc monitor DVI-D-0 -d F M S I M2
-		bspc monitor HDMI-0 -d R L M3
+		bspc monitor DP-4 -d R L M3
 		bspc config border_width         	1
 		bspc config window_gap          	8
 		;;
