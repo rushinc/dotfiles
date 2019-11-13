@@ -53,16 +53,19 @@ bspc config external_rules_command 	$HOME/.config/bspwm/floating_preferences
 
 # Assign windows to workspaces
 bspc rule -a Thunar 			desktop=F
+bspc rule -a ranger 			desktop=F
 bspc rule -a firefox 			desktop=B
 bspc rule -a Zathura			desktop=R
 bspc rule -a Zotero			desktop=R
 bspc rule -a "MATLAB R2019b - academic use" desktop=M state=floating
 bspc rule -a "MATLAB R2019b"		desktop=M state=floating
+bspc rule -a matlab			desktop=M
 bspc rule -a Comsollauncher		desktop=S state=floating
 bspc rule -a SWT			desktop=S
-bspc rule -a Pulseeffects		desktop=M2
 bspc rule -a mpv		 	desktop=I
 bspc rule -a Spotify 			desktop=L
+bspc rule -a ncmpcpp 			desktop=L
+bspc rule -a vis 			desktop=L
 bspc rule -a keepassxc			desktop=M1
 bspc rule -a "Syncthing GTK"		desktop=M1
 bspc rule -a Pulseeffects		desktop=M2

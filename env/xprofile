@@ -12,13 +12,14 @@ numlockx &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 compton --respect-prop-shadow &
 mopidy &
-mpd-notification &
 mpdscribble &
 pulseeffects --gapplication-service &
 nitrogen --restore &
 
 # Tray applets
-nm-applet &
 xfce4-power-manager &
 udiskie -s &
 clipit &
+
+# Late-start applications
+/home/rushin/.config/autostart/startup.sh &

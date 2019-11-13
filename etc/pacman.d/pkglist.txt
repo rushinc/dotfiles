@@ -165,7 +165,6 @@ nvidia
 nvidia-settings
 nvidia-utils
 oblogout
-oomox
 openssh
 openvpn
 optimus-manager

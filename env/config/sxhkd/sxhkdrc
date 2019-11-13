@@ -84,14 +84,17 @@ super + Escape
 super + x; {c,w,m}
 	floatty -f {-t termite calcurse,meteo,-t termite bc}
 
-super + x; {_,shift + ,ctrl + }h
-	bspc rule -a \* -o {desktop=F,state=floating,state=floating sticky=on} && termite -e ranger
+super + x; h
+	termite --class=ranger -e ranger
+
+super +x; {shift,ctrl} + h
+	bspc rule -a \* -o {state=floating,state=floating sticky=on} && termite -e ranger
 
 super + x; {_,alt + }b
-	{firefox,bspc rule -a \* -o hidden=on && firefox -private-window}
+	firefox{_, -private-window}
 
 super + x; j
-	bspc rule -a \* -o desktop=L && termite -e ncmpcpp
+	termite --class=ncmpcpp -e ncmpcpp
 
 # Lock screen
 
