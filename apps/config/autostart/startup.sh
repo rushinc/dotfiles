@@ -8,9 +8,11 @@ termite &
 termite --class=ranger -e ranger &
 firefox &
 zotero &
-termite --class=matlab -e 'fish -c matlab' &
 termite --class=ncmpcpp -e ncmpcpp &
-termite --class=vis -e vis &
+if [[ $HOSTNAME = "archStation"]]
+	termite --class=vis -e vis &
+	termite --class=matlab -e 'fish -c matlab' &
+fi
 keepassxc &
 syncthing-gtk &
 
