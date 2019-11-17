@@ -201,7 +201,7 @@ python-ply
 python-psutil
 python-pycparser
 python-requests-oauthlib
-python-ueberzug
+python-ueberzug-git
 python-xlib
 python2-backports-abc
 python2-cachecontrol
@@ -276,8 +276,11 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 transmission-gtk
+ttf-fira-mono
+ttf-fira-sans
 ttf-font-awesome
 ttf-ms-fonts
+ttf-opensans
 ttf-weather-icons
 tumbler
 udiskie
