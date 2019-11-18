@@ -10,7 +10,7 @@ numlockx &
 
 # Services
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-compton --respect-prop-shadow &
+picom &
 mopidy &
 mpdscribble &
 pulseeffects --gapplication-service &
