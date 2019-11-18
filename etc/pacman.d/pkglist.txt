@@ -25,7 +25,6 @@ calf
 catfish
 cli-visualizer
 clipit
-compton
 coreutils
 cpio
 cryptsetup
@@ -178,6 +177,7 @@ pavucontrol
 pciutils
 pdfpc
 perl
+picom
 pinta
 pkgconf
 playerctl
