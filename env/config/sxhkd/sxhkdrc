@@ -67,6 +67,9 @@ super + shift + x
 super + {_,shift + ,ctrl + }Return
 	{_,bspc rule -a \* -o state=floating &&, bspc rule -a \* -o state=floating sticky=on && }termite
 
+super + {_,shift + ,ctrl + }KP_Enter
+	{_,bspc rule -a \* -o state=floating &&, bspc rule -a \* -o state=floating sticky=on && }termite
+
 # program launcher
 super + {_,shift + }@space
 	rofi -show {drun,run}
