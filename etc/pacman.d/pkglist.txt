@@ -28,7 +28,6 @@ clipit
 coreutils
 cpio
 cryptsetup
-cups
 cups-pdf
 cups-pk-helper
 device-mapper
@@ -36,10 +35,8 @@ dhcpcd
 dialog
 diffutils
 downgrade
-doxygen
 dunst
 e2fsprogs
-efibootmgr
 elementary-icon-theme
 exfat-utils
 fakeroot
@@ -75,8 +72,6 @@ gst-plugins-ugly
 gst-python2
 gthumb
 gtk-engine-murrine
-gtk-engines
-gtk2-smooth-engine
 gts
 gvfs
 gvfs-mtp
@@ -87,7 +82,6 @@ highlight
 hunspell-en_US
 hyphen-en
 icedtea-web
-imagemagick
 inetutils
 inkscape
 intel-ucode
@@ -109,7 +103,6 @@ libmythes
 libreoffice-extension-texmaths
 libreoffice-extension-writer2latex
 libreoffice-still
-libselinux
 libstemmer
 libtool
 libutf8proc
@@ -172,7 +165,6 @@ pacman
 pacman-contrib
 papirus-icon-theme
 paraview
-parted
 patch
 pavucontrol
 pciutils
@@ -221,7 +213,6 @@ python2-pytoml
 python2-requests
 python2-retrying
 python2-singledispatch
-python2-spotipy
 python2-tornado
 python2-urllib3
 python2-webencodings
@@ -233,7 +224,6 @@ qt5-webkit
 qt5ct
 ranger-git
 re2
-realvnc-vnc-viewer
 redshift
 refind-efi
 reiserfsprogs
@@ -243,7 +233,6 @@ s-nail
 sed
 serf
 shadow
-shadowfox-updater
 siji-git
 snappy
 spotify
@@ -336,7 +325,6 @@ xorg-xdriinfo
 xorg-xev
 xorg-xgamma
 xorg-xhost
-xorg-xinit
 xorg-xinput
 xorg-xkbcomp
 xorg-xkbevd
