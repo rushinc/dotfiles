@@ -41,6 +41,7 @@ dunst
 e2fsprogs
 efibootmgr
 elementary-icon-theme
+exfat-utils
 fakeroot
 ffmpegthumbnailer
 file
