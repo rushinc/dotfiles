@@ -66,7 +66,7 @@ bspc rule -a mpv		 	desktop=I
 bspc rule -a Spotify 			desktop=L
 bspc rule -a ncmpcpp 			desktop=L
 bspc rule -a vis 			desktop=L
-bspc rule -a keepassxc			desktop=M1
+bspc rule -a KeePassXC			desktop=M1
 bspc rule -a "Syncthing GTK"		desktop=M1
 bspc rule -a Pulseeffects		desktop=M2
 
