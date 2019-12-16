@@ -10,7 +10,7 @@
 	#ifdef SRVR_archPad
 		#define XCURSOR 48
 	#else
-		#define XCURSOR 24
+		#define XCURSOR 32
 	#endif
 #endif
 

@@ -235,6 +235,15 @@ ${2:${VISUAL:code}}
 $0
 endsnippet
 
+snippet ttt "Monospace \texttt" wA
+\texttt{${1:${VISUAL}}}`!p
+if t[2] and t[2][0] not in [':',',', '.', '?', '-', ' ']:
+    snip.rv = ' '
+else:
+    snip.rv = ''
+`$2
+endsnippet
+
 priority -50
 
 ##############
