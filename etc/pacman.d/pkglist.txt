@@ -7,6 +7,7 @@ apr-util
 arandr
 arc-gtk-theme
 ario
+astromenace
 atool
 autoconf
 automake
@@ -29,20 +30,18 @@ clipit
 coreutils
 cpio
 cryptsetup
-cups
 cups-pdf
 cups-pk-helper
+deluge
 device-mapper
 dhcpcd
 dialog
 diffutils
 downgrade
-doxygen
 dunst
 e2fsprogs
-efibootmgr
 elementary-icon-theme
-exfat-utils
+endless-sky-high-dpi
 fakeroot
 ffmpegthumbnailer
 file
@@ -76,8 +75,6 @@ gst-plugins-ugly
 gst-python2
 gthumb
 gtk-engine-murrine
-gtk-engines
-gtk2-smooth-engine
 gts
 gvfs
 gvfs-mtp
@@ -88,7 +85,6 @@ highlight
 hunspell-en_US
 hyphen-en
 icedtea-web
-imagemagick
 inetutils
 inkscape
 intel-ucode
@@ -100,6 +96,7 @@ kdeconnect
 keepassxc
 kvantum-qt5
 kvantum-theme-adapta
+lapacke
 less
 lib32-libcanberra
 libappindicator-gtk3
@@ -110,7 +107,6 @@ libmythes
 libreoffice-extension-texmaths
 libreoffice-extension-writer2latex
 libreoffice-still
-libselinux
 libstemmer
 libtool
 libutf8proc
@@ -136,9 +132,10 @@ meteo-gtk
 minizip
 mlocate
 mopidy
-mopidy-local-sqlite
-mopidy-spotify-playlist-fix-git
-mopidy-spotify-web
+mopidy-local
+mopidy-mpd
+mopidy-scrobbler
+mopidy-spotify
 mpc
 mpd
 mpd-notification
@@ -173,7 +170,6 @@ pacman
 pacman-contrib
 papirus-icon-theme
 paraview
-parted
 patch
 pavucontrol
 pciutils
@@ -202,6 +198,7 @@ python-oauthlib
 python-ply
 python-psutil
 python-pycparser
+python-pyspotify
 python-requests-oauthlib
 python-ueberzug-git
 python-xlib
@@ -222,7 +219,6 @@ python2-pytoml
 python2-requests
 python2-retrying
 python2-singledispatch
-python2-spotipy
 python2-tornado
 python2-urllib3
 python2-webencodings
@@ -234,7 +230,6 @@ qt5-webkit
 qt5ct
 ranger-git
 re2
-realvnc-vnc-viewer
 redshift
 refind-efi
 reiserfsprogs
@@ -244,7 +239,6 @@ s-nail
 sed
 serf
 shadow
-shadowfox-updater
 siji-git
 snappy
 spotify
@@ -278,8 +272,6 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 transmission-gtk
-ttf-fira-mono
-ttf-fira-sans
 ttf-font-awesome
 ttf-ms-fonts
 ttf-opensans
@@ -337,7 +329,6 @@ xorg-xdriinfo
 xorg-xev
 xorg-xgamma
 xorg-xhost
-xorg-xinit
 xorg-xinput
 xorg-xkbcomp
 xorg-xkbevd
