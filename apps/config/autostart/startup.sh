@@ -1,5 +1,5 @@
 #! /bin/sh
-sleep 15
+sleep 5
 
 # Applications
 termite &
@@ -13,10 +13,10 @@ if [ "$HOSTNAME" = archStation ]; then
 	termite --class=vis -e vis &
 	termite --class=matlab -e 'fish -c matlab' &
 fi
-keepassxc &
 syncthing-gtk &
+keepassxc &
 
 # Services
-redshift &
 nm-applet &
+redshift &
 mpd-notification &
