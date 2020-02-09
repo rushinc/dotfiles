@@ -77,6 +77,7 @@ gthumb
 gtk-engine-murrine
 gts
 gvfs
+gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 gvim
@@ -130,6 +131,7 @@ mda.lv2
 mdadm
 meteo-gtk
 minizip
+mkchromecast
 mlocate
 mopidy
 mopidy-local
@@ -152,6 +154,7 @@ netctl
 network-manager-applet
 networkmanager-openvpn
 nitrogen
+noson-app
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
@@ -200,6 +203,7 @@ python-psutil
 python-pycparser
 python-pyspotify
 python-requests-oauthlib
+python-soco
 python-ueberzug-git
 python-xlib
 python2-backports-abc
@@ -271,6 +275,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+tor-browser
 transmission-gtk
 ttf-font-awesome
 ttf-ms-fonts

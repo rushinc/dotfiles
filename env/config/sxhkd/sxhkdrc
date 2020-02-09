@@ -11,8 +11,14 @@
 XF86Audio{Raise,Lower}Volume
         volume.sh {up,down}
 
+alt + XF86Audio{Raise,Lower}Volume
+        pactl set-sink-volume Mkchromecast {+,-}5%
+
 XF86AudioMute
         volume.sh mute
+
+alt + XF86AudioMute
+        pactl set-sink-mute Mkchromecast toggle
 
 # Alternative keybindings when XF86 not present
 super + {equal,minus,shift + minus}
@@ -28,6 +34,10 @@ super + shift + bracket{left,right}
 # mpd controls
 super + {bracketleft,bracketright,p}
         mpc {prev,next,toggle}
+
+# Stream to Sonos via mkchromecast
+super + c
+	run-check mkchromecast &
 
 # Brightness control
 XF86MonBrightness{Up,Down}
