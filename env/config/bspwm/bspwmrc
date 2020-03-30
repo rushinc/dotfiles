@@ -3,9 +3,10 @@
 # Set up monitors
 case $HOSTNAME in
 	archStation)
-		bspc monitor HDMI-0 -d T B W C M1
-		bspc monitor DVI-D-0 -d F M S I M2
-		bspc monitor DP-4 -d R L M3
+		bspc monitor HDMI-0 -d T F B R W M S I C L M1 M2 M3
+		# bspc monitor HDMI-0 -d T B W C M1
+		# bspc monitor DVI-D-0 -d F M S I M2
+		# bspc monitor DP-4 -d R L M3
 		bspc config border_width         	1
 		bspc config window_gap          	8
 		;;
@@ -81,4 +82,5 @@ bspc rule -a Oblogout	 		state=fullscreen monitor='^1'
 bspc rule -a Xarchiver	 		state=floating
 bspc rule -a Nm-connection-editor	state=floating
 bspc rule -a Gnome-system-monitor	state=floating
+bspc rule -a ipykernel_launcher.py	state=floating
 bspc rule -a Zathura			state=tiled

@@ -9,6 +9,6 @@ app.window.position.y=965
 autologin.canonical_username="riper.33"
 storage.last-location="/home/rushin/.cache/spotify/Storage"
 app.window.position.width=1062
-core.clock_delta=44
+core.clock_delta=77
 app.last-launched-version="1.1.10.546.ge08ef575"
 app.autostart-configured=true
