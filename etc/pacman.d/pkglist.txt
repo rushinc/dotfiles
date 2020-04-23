@@ -30,9 +30,10 @@ clipit
 coreutils
 cpio
 cryptsetup
+cuda
 cups-pdf
 cups-pk-helper
-deluge
+deluge-gtk
 device-mapper
 dhcpcd
 dialog
@@ -40,8 +41,8 @@ diffutils
 downgrade
 dunst
 e2fsprogs
+electrum
 elementary-icon-theme
-endless-sky-high-dpi
 fakeroot
 ffmpegthumbnailer
 file
@@ -92,6 +93,7 @@ intel-ucode
 iproute2
 iputils
 jfsutils
+jupyter-notebook
 kde-cli-tools
 kdeconnect
 keepassxc
@@ -100,6 +102,7 @@ kvantum-theme-adapta
 lapacke
 less
 lib32-libcanberra
+lib32-nvidia-utils
 libappindicator-gtk3
 libdbusmenu-gtk3
 libgsf
@@ -118,6 +121,7 @@ lightdm-gtk-greeter
 linux
 linux-firmware
 logrotate
+lsd
 lsp-plugins
 lvm2
 lxappearance-gtk3
@@ -154,7 +158,6 @@ netctl
 network-manager-applet
 networkmanager-openvpn
 nitrogen
-noson-app
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
@@ -171,6 +174,7 @@ openvpn
 optimus-manager
 pacman
 pacman-contrib
+pandoc
 papirus-icon-theme
 paraview
 patch
@@ -203,6 +207,7 @@ python-psutil
 python-pycparser
 python-pyspotify
 python-requests-oauthlib
+python-scipy
 python-soco
 python-ueberzug-git
 python-xlib
@@ -210,7 +215,6 @@ python2-backports-abc
 python2-cachecontrol
 python2-chardet
 python2-colorama
-python2-configobj
 python2-distlib
 python2-distro
 python2-html5lib
@@ -218,7 +222,6 @@ python2-lockfile
 python2-pep517
 python2-pip
 python2-progress
-python2-pykka
 python2-pytoml
 python2-requests
 python2-retrying
@@ -248,6 +251,7 @@ snappy
 spotify
 squashfs-tools
 sshfs
+steam
 subversion
 sudo
 sxhkd
@@ -275,6 +279,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+tor
 tor-browser
 transmission-gtk
 ttf-font-awesome
@@ -316,7 +321,6 @@ xorg-mkfontscale
 xorg-server
 xorg-server-common
 xorg-server-devel
-xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
@@ -363,4 +367,5 @@ zathura-djvu
 zathura-pdf-mupdf
 zathura-ps
 zenity
+zoom
 zotero
