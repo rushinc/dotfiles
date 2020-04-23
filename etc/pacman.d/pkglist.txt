@@ -238,7 +238,7 @@ qt5ct
 ranger-git
 re2
 redshift
-refind-efi
+refind
 reiserfsprogs
 rofi
 rxvt-unicode
