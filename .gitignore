@@ -12,3 +12,5 @@ apps/config/nitrogen/bg-saved.cfg
 apps/config/spotify/Users/*
 apps/mpdscribble/*.journal
 apps/vim/.netrwhist
+fonts/.uuid
+shells/fish/fish_variables
