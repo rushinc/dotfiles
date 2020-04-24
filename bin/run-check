@@ -1,0 +1,9 @@
+#!/bin/bash
+SERVICE=$1
+if pgrep -x "$SERVICE" >/dev/null
+then
+    pkill $SERVICE
+else
+    $SERVICE > /dev/null &
+fi
+exit 0
