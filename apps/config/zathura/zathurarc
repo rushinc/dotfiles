@@ -36,9 +36,9 @@ set recolor                     "true"
 set recolor-keephue 		"false"
 
 # Settings
-set adjust-open width
 set selection-clipboard clipboard
 set window-title-basename true
+set adjust-open width
 
 # Mappings
 map b toggle_statusbar

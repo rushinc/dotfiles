@@ -13,6 +13,9 @@ if [ "$HOSTNAME" = archStation ]; then
 	termite --class=vis -e vis &
 	termite --class=matlab -e 'fish -c matlab' &
 fi
+if [ "$HOSTNAME" = archPad ]; then
+	xinput disable 10 
+fi
 syncthing-gtk &
 keepassxc &
 
