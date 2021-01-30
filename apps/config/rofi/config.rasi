@@ -1,0 +1,6 @@
+configuration {
+	modi: "window,run,drun,ssh";
+	terminal: "termite";
+	dpi: 288;
+	theme: "/home/rushin/.local/share/rofi/themes/materia.rasi";
+}
