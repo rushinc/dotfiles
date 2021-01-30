@@ -23,3 +23,6 @@
 [submodule "apps/vim/plugged/matlab.vim"]
 	path = apps/vim/plugged/matlab.vim
 	url = https://github.com/yinflying/matlab.vim
+[submodule "apps/vim/plugged/jupyter-vim"]
+	path = apps/vim/plugged/jupyter-vim
+	url = https://github.com/jupyter-vim/jupyter-vim

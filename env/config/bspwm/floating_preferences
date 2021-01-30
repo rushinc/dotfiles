@@ -6,7 +6,7 @@ instance=$3
 
 title=$(xtitle "$wid")
 case "$title" in
-	"Zotero Preferences"|"Print")
+	"Zotero Preferences"|"Print"|"Mayavi")
 		echo "state=floating"
 		;;
 esac
