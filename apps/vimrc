@@ -43,9 +43,6 @@ let g:UltiSnipsEditSplit = 'tabdo'
 " sxhkd syntax highlighting
 Plug 'baskerville/vim-sxhkdrc'
 
-" jupyter-vim for interactive python
-Plug 'jupyter-vim/jupyter-vim'
-
 " Initialize plugin system
 call plug#end()
 

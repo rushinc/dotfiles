@@ -13,5 +13,7 @@ apps/mpdscribble/*.journal
 apps/vim/.netrwhist
 fonts/.uuid
 shells/fish/fish_variables
-src/meep
-src/mpb
+src/*
+themes/config/gtk-2.0/gtkfilechooser.ini
+
+!src/yay

@@ -1,3 +1,0 @@
-rofi.theme: 		/home/rushin/.local/share/rofi/themes/materia.rasi
-rofi.modi:		window,run,drun,ssh
-rofi.terminal:		termite

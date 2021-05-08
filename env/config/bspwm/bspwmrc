@@ -3,7 +3,7 @@
 # Set up monitors
 case $HOSTNAME in
 	archStation)
-		bspc monitor HDMI-0 -d T F B R W M S I C L M1 M2 M3
+		bspc monitor HDMI-0 -d T F B R W M C S I L M1 M2 M3
 		# bspc monitor HDMI-0 -d T B W C M1
 		# bspc monitor DVI-D-0 -d F M S I M2
 		# bspc monitor DP-4 -d R L M3
@@ -58,8 +58,8 @@ bspc rule -a ranger 			desktop=F
 bspc rule -a firefox 			desktop=B
 bspc rule -a Zathura			desktop=R
 bspc rule -a Zotero			desktop=R
-bspc rule -a "MATLAB R2019b - academic use" desktop=M state=floating
-bspc rule -a "MATLAB R2019b"		desktop=M state=floating
+bspc rule -a "MATLAB R2021a - academic use" desktop=M state=floating
+bspc rule -a "MATLAB R2021a"		desktop=M state=floating
 bspc rule -a matlab			desktop=M
 bspc rule -a Comsollauncher		desktop=S state=floating
 bspc rule -a SWT			desktop=S
