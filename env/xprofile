@@ -1,8 +1,8 @@
 #!usr/bin/bash
 
-if [ "$HOSTNAME" = archPad ]; then
-	xinput disable 10 &
-fi
+#if [ "$HOSTNAME" = archPad ]; then
+#	xinput disable 10 &
+#fi
 if [ "$HOSTNAME" = archStation ]; then
 	/home/rushin/.screenlayout/defaults.sh &
 fi

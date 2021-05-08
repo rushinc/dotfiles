@@ -30,7 +30,6 @@ calf
 catfish
 chromium
 cli-visualizer
-clipit
 coreutils
 cpio
 cryptsetup
@@ -98,7 +97,6 @@ harminv
 highlight
 hunspell-en_us
 hyphen-en
-ibus
 icedtea-web
 imagemagick
 inetutils
