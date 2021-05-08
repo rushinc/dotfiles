@@ -336,6 +336,7 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdotool
 xf86-video-vesa
+xfce4-clipman-plugin
 xfce4-power-manager
 xfsprogs
 xorg-bdftopcf

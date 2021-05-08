@@ -9,6 +9,7 @@ apps/config/mpd/db
 apps/config/mpd/state
 apps/config/mpd/sticker.sql
 apps/config/nitrogen/bg-saved.cfg
+env/config/xfce4/panel/
 apps/mpdscribble/*.journal
 apps/vim/.netrwhist
 fonts/.uuid

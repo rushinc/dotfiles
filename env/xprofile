@@ -19,7 +19,7 @@ nitrogen --restore &
 # Tray applets
 xfce4-power-manager &
 udiskie -s &
-clipit &
+xfce4-clipman &
 
 # Late-start applications
 /home/rushin/.config/autostart/startup.sh &
